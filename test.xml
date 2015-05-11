@@ -1,1 +1,10 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="expansion_servopower" id="139" x="1" y="1">
+    <field name="SERVO">ON</field>
+  </block>
+  <block type="movement_forward" id="41" x="71" y="26">
+    <next>
+      <block type="robot_delay" id="103" inline="true"></block>
+    </next>
+  </block>
+</xml>
